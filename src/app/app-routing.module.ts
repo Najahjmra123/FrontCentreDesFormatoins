@@ -19,6 +19,7 @@ const routes: Routes = [
   { path: 'formateurs', component:FormateursComponent },
   { path: 'candidates', component:CondidatesComponent },
   { path: 'admin', component:AdminComponent },
+  { path: 'formations', component:FormationsComponent },
   {path:'**',component:NotFoundComponent}
 ];
 
