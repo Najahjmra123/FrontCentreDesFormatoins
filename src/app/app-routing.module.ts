@@ -8,6 +8,7 @@ import {NavbarComponent} from "./navbar/navbar.component";
 import {FormateursComponent} from "./formateurs/formateurs.component";
 import {CondidatesComponent} from "./candidates/condidates.component";
 import {AdminComponent} from "./admin/admin.component";
+import {FormationsComponent} from "./formations/formations.component";
 
 const routes: Routes = [
 

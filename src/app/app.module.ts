@@ -19,6 +19,10 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from "@angular/material/input";
 import {MatSelectModule} from '@angular/material/select';
 import { FormationsComponent } from './formations/formations.component';
+import {Button} from "primeng/button";
+import {DialogModule} from "primeng/dialog";
+import { ButtonModule } from 'primeng/button';
+
 
 
 
@@ -46,6 +50,8 @@ import { FormationsComponent } from './formations/formations.component';
     MatButtonModule,
     MatInputModule,
     MatSelectModule,
+    Button,
+    DialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
